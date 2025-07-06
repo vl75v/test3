@@ -5,3 +5,14 @@ body {
 header {
   background-color: bisque;
 }
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+
+.container {
+  background-color: cadetblue;
+}
