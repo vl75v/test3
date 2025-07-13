@@ -6,11 +6,12 @@ body {
 }
 
 header {
+  width: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
   background-color: bisque;
-  margin-right: 100px;
 }
 
 h1 {
@@ -18,7 +19,10 @@ h1 {
 }
 
 a {
-  margin: 34px;
+  text-decoration: none;
+  font-family: Tahoma, sans-serif;
+  font-size: large;
+  color: rgb(58, 86, 110);
 }
 
 main {
@@ -57,4 +61,5 @@ main {
 button {
   padding: 10px;
   margin-top: 50px;
+  border-radius: 5px;
 }
